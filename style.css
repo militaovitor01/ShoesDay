@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(styles/reset.css);
+@import url(styles/header.css);
+@import url(styles/produtos.css);
+@import url(styles/carrossel.css);
+@import url(styles/footer.css);
+
+:root {
+  --cor-primaria: #F7EFE0;
+  --cor-secundaria: #2E2E2D;
+  --cor-terciaria: #EAE7DC;
+  --background: #F5F5F5;
+  --branco: #FFFFFF;
+
+  --fonte-primaria: 'Bebas Neue', 'Sans-serif';
+  --fonte-secundaria: 'Lato', 'Sans-serif';
+}
+
+body {
+  height: 100vh;  /*Bug largura*/
+  background-color: var(--background);
+  overflow-x: hidden; 
+}
+
+/* Celular */
+@media screen and (max-width: 985px) {
+  .cards-section {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .contato {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    display: block;
+
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .newsletter {
+    display: none;
+  }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce - ShoesDay</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.6.0/dist/css/ionicons.min.css">
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav class="cabecalho__nav">
+      <img class="cabecalho__img" src="img/logo10.png" alt="Logo ShoesDay">
+
+      <ul class="cabecalho__lista">
+        <li class="cabecalho__lista__itens"><a class="cabecalho__lista__itens__item" href="#">ITENS</a></li>
+        <li class="cabecalho__lista__itens"><a class="cabecalho__lista__itens__item" href="#">FAVORITOS </a></li>
+        <li class="cabecalho__lista__itens"><a class="cabecalho__lista__itens__item" href="#">CARRINHO</a></li>
+      </ul>
+
+      <form action="buscar" class="nav__buscar">
+        <input type="search" name="" class="nav__buscar__input" placeholder="Digite o que deseja buscar">
+        <button type="submit" class="nav__buscar__botao"><img src="img/lupa.svg" alt="lupa">Buscar</button>
+      </form>
+    </nav>
+  </header>
+
+  <!-- Principal -->
+  <main>
+    <!-- Seção do Carrossel -->
+    <section class="carousel" aria-label="Gallery">
+      <ol class="carousel__viewport">
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+          <img src="img/airForceCarrossel.jpg" alt="" class="carousel__image">
+          <div class="carousel__snapper">
+            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+          </div>
+        </li>
+
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+          <img src="img/DunkCarrossel.webp" alt="" class="carousel__image">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+        </li>
+
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+          <img src="img/JordanCarrossel.jpg" alt="" class="carousel__image">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+        </li>
+      </ol>
+      <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+          </li>
+        </ol>
+      </aside>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section class="produtos">
+      <ul class="lista__produtos">
+        <li class="lista__produtos__produto">
+          <img src="img/Air Force Low Multicolor.webp" alt="">
+          <p class="nome__produto">
+            NIKE AIR FORCE LOW MULTICOLOR
+          </p>
+          <p class="preco__produto">
+            Preço: $999;99
+          </p>
+        </li>
+        <li class="lista__produtos__produto">
+          <img src="img/TÊNIS NIKE AIR FORCE 1 REACT MASCULINO.webp" alt="">
+          <p class="nome__produto">
+            NIKE AIR FORCE LOW MULTICOLOR
+          </p>
+          <p class="preco__produto">
+            Preço: $999;99
+          </p>
+        </li>
+        <li class="lista__produtos__produto">
+          <img src="img/Air Force 1 White Magic.webp" alt="">
+          <p class="nome__produto">
+            NIKE AIR FORCE LOW MULTICOLOR
+          </p>
+          <p class="preco__produto">
+            Preço: $999;99
+          </p>
+        </li>
+        <li class="lista__produtos__produto">
+          <img src="img/TÊNIS NIKE AIR FORCE 1 PREMIUM FEMININO.webp" alt="">
+          <p class="nome__produto">
+            NIKE AIR FORCE LOW MULTICOLOR
+          </p>
+          <p class="preco__produto">
+            Preço: $999;99
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <section class="rodape">
+      <div class="rodape__links">
+        <ul class="rodape__lista">
+          <p class="rodape__lista__titulo">Entre em contato conosco:</p>
+          <li class="rodape__lista__item"><ion-icon name="call-outline"></ion-icon>(31) 9 91959-0011</li>
+          <li class="rodape__lista__item"><ion-icon name="logo-twitter"></ion-icon>@ShoesDayBr123</li>
+          <li class="rodape__lista__item"><ion-icon name="logo-instagram"></ion-icon>@ShoesDayBr123</li>
+        </ul>
+
+        <ul class="rodape__lista">
+          <p class="rodape__lista__titulo">Métodos de Pagamento:</p>
+          <li class="rodape__lista__item"><ion-icon name="card-outline"></ion-icon>Cartão de Crédito</li>
+          <li class="rodape__lista__item"><ion-icon name="logo-paypal"></ion-icon>PayPal</li>
+          <li class="rodape__lista__item"><ion-icon name="cash-outline"></ion-icon>Pix</li>
+        </ul>
+      </div>
+
+      <div class="rodape__newsletter">
+        <p class="rodape__lista__titulo">Newsletter - Inscreva-se para novidades!</p>
+        <form action="buscar" class="rodape__email">
+          <input type="email" name="" class="nav__buscar__input" placeholder="Digite o que deseja buscar">
+          <button type="submit" class="nav__buscar__botao">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>

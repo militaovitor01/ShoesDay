@@ -1,0 +1,48 @@
+/* Estilo base para a lista */
+.lista__produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    padding: 0;
+    margin: 3em;
+    list-style: none;
+}
+
+/* Estilo para cada item da lista */
+.lista__produtos__produto {
+    flex: 1 1 200px; /* Controla o tamanho mínimo dos itens e permite que eles cresçam */
+    max-width: 250px; /* Define um limite máximo para a largura */
+    text-align: center; 
+    background-color:  var(--branco); 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Estilo para as imagens */
+.lista__produtos__produto img {
+    width: 100%; /* Faz a imagem preencher a largura do contêiner */
+    max-width: 180px; /* Limite máximo para largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Corta a imagem para preencher o contêiner */
+    border-radius: 8px; /* Mesma borda arredondada */
+    margin-bottom: 8px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilo para o texto do produto */
+.lista__produtos__produto p {
+    font-size: 1em;
+    font-family: var(--fonte-secundaria);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.nome__produto {
+    font-weight: 700;
+}

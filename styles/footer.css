@@ -1,0 +1,35 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    text-align: center;
+    gap: 2em;
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-terciaria);
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__lista__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    gap: 10px;
+}
+
+.rodape__lista__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    padding-bottom: 0.5em;
+}
+
+.rodape__email {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+    gap: 0.5em;
+}
