@@ -4,6 +4,7 @@
 @import url(styles/produtos.css);
 @import url(styles/carrossel.css);
 @import url(styles/footer.css);
+@import url(styles/mais-vendidos.css);
 
 :root {
   --cor-primaria: #F7EFE0;

@@ -71,46 +71,42 @@
       </aside>
     </section>
 
-    <!-- Seção de Produtos -->
-    <section class="produtos">
-      <ul class="lista__produtos">
-        <li class="lista__produtos__produto">
-          <img src="img/Air Force Low Multicolor.webp" alt="">
-          <p class="nome__produto">
-            NIKE AIR FORCE LOW MULTICOLOR
-          </p>
-          <p class="preco__produto">
-            Preço: $999;99
-          </p>
-        </li>
-        <li class="lista__produtos__produto">
-          <img src="img/TÊNIS NIKE AIR FORCE 1 REACT MASCULINO.webp" alt="">
-          <p class="nome__produto">
-            NIKE AIR FORCE LOW MULTICOLOR
-          </p>
-          <p class="preco__produto">
-            Preço: $999;99
-          </p>
-        </li>
-        <li class="lista__produtos__produto">
-          <img src="img/Air Force 1 White Magic.webp" alt="">
-          <p class="nome__produto">
-            NIKE AIR FORCE LOW MULTICOLOR
-          </p>
-          <p class="preco__produto">
-            Preço: $999;99
-          </p>
-        </li>
-        <li class="lista__produtos__produto">
-          <img src="img/TÊNIS NIKE AIR FORCE 1 PREMIUM FEMININO.webp" alt="">
-          <p class="nome__produto">
-            NIKE AIR FORCE LOW MULTICOLOR
-          </p>
-          <p class="preco__produto">
-            Preço: $999;99
-          </p>
-        </li>
-      </ul>
+    <section class="produtos__container">
+      <!-- Seção de Produtos -->
+      <div class="produtos">
+        <h1 class="produtos__titulo">Produtos</h1>
+        <hr>
+        <ul class="lista__produtos" id="produtos">
+          <!-- A lista de Produtos é consumida pela api -->
+        </ul>
+      </div>
+
+      <!-- Iniício da barra lateral -->
+      <aside class="menu_mais-vendidos">
+        <h2 class="mais-vendidos__titulo">Mais Vendidos:</h2>
+        
+        <ul class="menu_mais-vendidos__lista">
+          <li class="menu_mais-vendidos__produto">
+            <img src="img/TÊNIS NIKE AIR FORCE 1 REACT MASCULINO.webp" alt="">
+            <p class="nome__produto">
+              NIKE AIR FORCE LOW MULTICOLOR
+            </p>
+            <p class="preco__produto">
+              Preço: $999;99
+            </p>
+          </li>
+
+          <li class="menu_mais-vendidos__produto">
+            <img src="img/TÊNIS NIKE AIR FORCE 1 REACT MASCULINO.webp" alt="">
+            <p class="nome__produto">
+              NIKE AIR FORCE LOW MULTICOLOR
+            </p>
+            <p class="preco__produto">
+              Preço: $999;99
+            </p>
+          </li>
+        </ul>
+      </aside>
     </section>
   </main>
 
@@ -142,5 +138,8 @@
       </div>
     </section>
   </footer>
+  <script src="scripts/main.js" type="module" defer></script>
+  <script src="scripts/exibirProdutos.js" type="module" defer></script>
 </body>
+
 </html>
