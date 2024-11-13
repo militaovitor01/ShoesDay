@@ -14,10 +14,10 @@
   <!-- Cabeçalho -->
   <header>
     <nav class="cabecalho__nav">
-      <img class="cabecalho__img" src="img/logo10.png" alt="Logo ShoesDay">
+      <a href="#"><img class="cabecalho__img" src="img/logo10.png" alt="Logo ShoesDay"></a>    
 
       <ul class="cabecalho__lista">
-        <li class="cabecalho__lista__itens"><a class="cabecalho__lista__itens__item" href="#">ITENS</a></li>
+        <li class="cabecalho__lista__itens"><a class="cabecalho__lista__itens__item" href="#">PRODUTOS</a></li>
         <li class="cabecalho__lista__itens"><a class="cabecalho__lista__itens__item" href="#">FAVORITOS </a></li>
         <li class="cabecalho__lista__itens"><a class="cabecalho__lista__itens__item" href="#">CARRINHO</a></li>
       </ul>
@@ -83,28 +83,10 @@
 
       <!-- Iniício da barra lateral -->
       <aside class="menu_mais-vendidos">
-        <h2 class="mais-vendidos__titulo">Mais Vendidos:</h2>
+        <h2 class="mais-vendidos__titulo">Mais Bem Avaliados:</h2>
         
-        <ul class="menu_mais-vendidos__lista">
-          <li class="menu_mais-vendidos__produto">
-            <img src="img/TÊNIS NIKE AIR FORCE 1 REACT MASCULINO.webp" alt="">
-            <p class="nome__produto">
-              NIKE AIR FORCE LOW MULTICOLOR
-            </p>
-            <p class="preco__produto">
-              Preço: $999;99
-            </p>
-          </li>
-
-          <li class="menu_mais-vendidos__produto">
-            <img src="img/TÊNIS NIKE AIR FORCE 1 REACT MASCULINO.webp" alt="">
-            <p class="nome__produto">
-              NIKE AIR FORCE LOW MULTICOLOR
-            </p>
-            <p class="preco__produto">
-              Preço: $999;99
-            </p>
-          </li>
+        <ul class="menu_mais-vendidos__lista" id = "mais-vendidos">
+          <!-- A lista de Produtos é consumida pela api -->
         </ul>
       </aside>
     </section>

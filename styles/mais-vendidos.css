@@ -16,7 +16,7 @@
 .menu_mais-vendidos__lista {
     display: flex;
     flex-direction: column;
-    gap:2em;
+    gap:5em;
     padding: 5em;
     align-items: center;
     justify-content: center;
@@ -37,4 +37,5 @@
 
 .menu_mais-vendidos__produto {
     font-family: var(--fonte-secundaria);
+    cursor: pointer;
 }

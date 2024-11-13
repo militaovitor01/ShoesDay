@@ -20,7 +20,10 @@
 body {
   height: 100vh;  /*Bug largura*/
   background-color: var(--background);
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  overflow-y: auto; 
+  margin: 0;                 /* Remove margens padrão */
+  padding: 0;
 }
 
 /* Celular */
