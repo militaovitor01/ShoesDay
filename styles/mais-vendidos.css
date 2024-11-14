@@ -39,3 +39,18 @@
     font-family: var(--fonte-secundaria);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+    .menu_mais-vendidos {
+        margin: 1.5em; /* Menor margem para a borda no celular */
+        width: auto; /* Ajusta a largura ao contêiner */
+    }
+
+    .menu_mais-vendidos__lista {
+        padding: 3em; /* Reduz o padding interno no celular */
+    }
+
+    .mais-vendidos__titulo {
+        text-align: center;
+    }
+}

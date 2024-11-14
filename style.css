@@ -24,33 +24,11 @@ body {
   overflow-y: auto; 
   margin: 0;                 /* Remove margens padrão */
   padding: 0;
+  min-height: 100vh; /*100% da altura da tela*/
+  box-sizing: border-box; /*para não ter problemas com padding e margin*/
 }
 
 /* Celular */
-@media screen and (max-width: 985px) {
-  .cards-section {
-    width: 100%;
-    float: none;
-    margin-right: 0;
-  }
+@media screen and (max-width: 390px) {
 
-  .contato {
-    width: 100%;
-    float: none;
-    margin-right: 0;
-    display: block;
-
-  }
-
-  .sidebar {
-    display: none;
-  }
-
-  .carousel {
-    display: none;
-  }
-
-  .newsletter {
-    display: none;
-  }
 }

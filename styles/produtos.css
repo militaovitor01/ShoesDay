@@ -68,3 +68,34 @@ hr {
 .nome__produto {
     font-weight: 700;
 }
+
+
+/* Celular */
+@media screen and (max-width: 1200px) {
+    .produtos__container {
+        flex-direction: column;
+        padding: 1em; 
+    }
+
+    .produtos__titulo {
+        font-size: 2em;
+        margin: 1em;
+        margin-bottom: 0.5em; 
+    }
+
+    .lista__produtos {
+        padding: 0;
+        margin: 0.5em; /* Ajusta a margem em volta da lista de produtos */
+        gap: 1.5em; /* Reduz o espaço entre os produtos */
+    }
+
+    .lista__produtos__produto {
+        max-width: 100%; /* Permite que o produto ocupe toda a largura */
+        margin: 0 auto;
+        padding: 5em; /* Ajusta o padding interno */
+    }
+
+    .lista__produtos__produto img {
+        max-width: 100%; /* Permite que a imagem ocupe toda a largura do contêiner */
+    }
+}

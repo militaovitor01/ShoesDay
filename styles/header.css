@@ -54,3 +54,22 @@
     background-color: #000000;
     border: 4px solid #000000;
   }
+
+  /* Celular */
+@media screen and (max-width: 1200px) {
+    .cabecalho__nav {
+      position: relative;
+    }
+
+    .cabecalho__img {
+      max-width: 70px;
+    }
+
+    .cabecalho__lista__itens__item {
+      font-size: 18px;
+    }
+
+    .nav__buscar {
+      display: none;
+    }
+}

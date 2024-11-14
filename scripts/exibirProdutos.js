@@ -35,7 +35,7 @@ export function ordenarRating (listaProdutos) {
                     ${produto.price.toFixed(2)}
                 </p>
                 <p class="preco__produto">
-                    Rating: ${produto.rating.rate} /5
+                    Rating: ${produto.rating.rate}/5
                 </p>
             </li>
         ` 
